@@ -2,8 +2,7 @@
 
 ###Variables used in tidy_data.txt:
 
-#####"subject"
-  * The numerical value corresponds with a singular subject for which the data was collected.
+#####"subject" = a numerical value that corresponds with a singular subject for which the data was collected.
 
 #####"activity" = the activity the subject was conducting at the time the data was collected
  - WALKING
