@@ -117,7 +117,7 @@ Upload file using write.table() using row.name=FALSE
 To read the file back into R use the following code
     >data <- read.table("./tidy_data.txt", header = TRUE)
     >View(data)
-#SOURCE: David Hood (Coursera TA), "David's Course Project FAQ", https://class.coursera.org/getdata-011/forum/thread?thread_id=69
+####SOURCE: David Hood (Coursera TA), "David's Course Project FAQ", https://class.coursera.org/getdata-011/forum/thread?thread_id=69
 
 
 About the data:
