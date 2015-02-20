@@ -1,5 +1,40 @@
 # Tidy data CODEBOOK
-*Modifications are at the bottom.
+
+###Variables used in tidy_data.txt:
+
+#####"subject"
+  * The numerical value corresponds with a singular subject for which the data was collected.
+
+#####"activity" = the activity the subject was conducting at the time the data was collected
+ - WALKING
+ - WALKING_UPSTAIRS
+ - WALKING_DOWNSTAIRS
+ - SITTING
+ - STANDING
+ - LAYING
+
+#####"variable" = the types of data and measurements collected
+   * There are too many to write out each individual variable value.  Please reference the lists of signals, variables and vectors below; for which combinations of all three make up the list of variables in the tidy set.
+    Please note that:
+      t="time"
+      f="frequency"
+      Acc="Accelerometer"
+      Gyro="Gyroscope"
+      Mag="Magnitude"
+      BodyBody="Body"
+
+#####"value" = the value of the variable for each subject doing each activity
+
+#####"mean" = the average value of each variable for each activity and each subject.
+
+###Process:
+
+The variables outlined below were used to analyze the data and a mean for each variable was determined for each set of subjects and activitites as listed above.
+
+Using the features, activities and subject information below, the original data was cleaned up into a tidy dataset.  That process is described in README.md. 
+-------------------------------------------------------------------------------------------------------------------------
+
+#####Information on the orginal dataset from whivh the tidy dataset was created:
 
 Feature Selection 
 =================
@@ -60,38 +95,4 @@ tBodyGyroMean
 tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'.
------------------------------------------------------------------------------------------------------
-The variables above were used to analyze the data and a mean for each variable was determined for each set of subjects and activitites as listed below.
-
-Using the features, activities and subject information, this data was cleaned up into a tidy dataset.  That process is described in README.md.  Below please find an explanation of the variables in the output tidy dataset.
-
-Variables:
-
-"subject"
-  * The numerical value corresponds with a singular subject for which the data was collected.
-
-"activity" = the activity the subject was conducting at the time the data was collected
- - WALKING
- - WALKING_UPSTAIRS
- - WALKING_DOWNSTAIRS
- - SITTING
- - STANDING
- - LAYING
-
-"variable" = the types of data and measurements collected
-   * There are too many to write out each individual variable value.  Please reference the lists of signals, variables and vectors above; for which combinations of all three make up the list of variables in the tidy set.
-    Please note that:
-      t="time"
-      f="frequency"
-      Acc="Accelerometer"
-      Gyro="Gyroscope"
-      Mag="Magnitude"
-      BodyBody="Body"
-
-"value" = the value of the variable for each subject doing each activity
-
-"mean" = the average value of each variable for each activity and each subject.
-
-
-
 
